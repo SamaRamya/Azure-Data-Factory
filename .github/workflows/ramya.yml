@@ -2,7 +2,7 @@
 
 # For more information on GitHub Actions for Azure: https://github.com/Azure/Actions
 # For more samples to get started with GitHub Action workflows to deploy to Azure: https://github.com/Azure/actions-workflow-samples
-
+Name: ADF 
 on:
   push:
     branches:
