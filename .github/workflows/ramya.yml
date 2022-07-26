@@ -19,8 +19,6 @@ jobs:
     
     - name: Azure Installation
       run: |
-           sudo apt-get update
-           sudo apt-get install azure-cli
            az --version
            
 
