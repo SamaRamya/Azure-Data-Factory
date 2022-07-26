@@ -16,6 +16,12 @@ jobs:
     #name: 'This deploys to Production'
     steps:
     - uses: actions/checkout@v3
+    
+    - name: Azure Installation
+      run: |
+           sudo apt-get update
+           sudo apt-get install azure-cli
+           
 
     - name: Azure Login
       uses: Azure/login@v1.4.3
